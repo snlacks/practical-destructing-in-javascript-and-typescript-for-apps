@@ -1,0 +1,20 @@
+{
+  "name": "snl-preset-server",
+  "scripts": {
+    "start": "http-server -p 3000"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.39"
+  },
+  "jspm": {
+    "dependencies": {
+      "jquery": "npm:jquery@^3.0.0"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
